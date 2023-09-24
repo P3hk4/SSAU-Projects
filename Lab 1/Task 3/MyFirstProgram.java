@@ -6,8 +6,8 @@ class MyFirstClass{
 		for (int j = 1; j <= 8; j++){
 			mySecondClass.setFrstNum(i);
 			mySecondClass.setScndNum(j);
-			System.out.println(mySecondClass.getMinimumNumber());
-			System.out.println("\n");
+			System.out.print(mySecondClass.getMinimumNumber());
+			System.out.print(" ");
 		}
 		System.out.println();
 	}
