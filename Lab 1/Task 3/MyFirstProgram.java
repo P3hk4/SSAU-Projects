@@ -17,6 +17,11 @@ class MySecondClass{
 	private int frstNum = 0;
 	private int scndNum = 0;
 
+	public MySecondClass(int frstNum, int scndNum) {
+		this.frstNum = frstNum;
+		this.scndNum = scndNum;
+	}
+
 	public int getMinimumNumber(){
 		if(getFrstNum()<=getScndNum()) return getFrstNum();
 		else return getScndNum();
@@ -35,11 +40,6 @@ class MySecondClass{
 	}
 
 	public void setScndNum(int scndNum) {
-		this.scndNum = scndNum;
-	}
-
-	public MySecondClass(int frstNum, int scndNum) {
-		this.frstNum = frstNum;
 		this.scndNum = scndNum;
 	}
 }
